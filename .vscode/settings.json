@@ -76,6 +76,15 @@
     "material-icon-theme.folders.color": "#90a4ae",
     // Python settings
     "python.languageServer": "Pylance",
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.terminal.activateEnvironment": false,
+    "python.envFile": "${workspaceFolder}/.env",
+    "jupyter.notebookFileRoot": "${fileDirname}",
+    // Test settings
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.cwd": "${workspaceFolder}",
+    "python.testing.autoTestDiscoverOnSaveEnabled": true,
     "github.copilot.selectedCompletionModel": "",
     "github.copilot.nextEditSuggestions.enabled": true,
     "gitlens.views.scm.grouped.views": {
@@ -93,17 +102,6 @@
     },
     "jupyter.askForKernelRestart": false,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
-    "chat.mcp.discovery.enabled": true,
-    "chat.mcp.serverSampling": {
-        "Global in Code: context7": {
-            "allowedModels": [
-                "copilot/gpt-4.1",
-                "copilot/claude-3.7-sonnet",
-                "copilot/claude-3.7-sonnet-thought",
-                "copilot/claude-sonnet-4"
-            ]
-        }
-    },
     "files.associations": {
         "*.j2": "jinja-xml"
     },
